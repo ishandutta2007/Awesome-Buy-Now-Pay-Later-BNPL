@@ -79,7 +79,7 @@ The leading commercial BNPL platforms, ranked in descending order by parent comp
 
 Curated open-source repositories relevant to BNPL checkout orchestration, loan management engines, installment calculation logic, and fee comparison tools. 
 
-> Repositories are sorted in **descending order by GitHub star count**, featuring real-time stargazers badges:
+> Repositories are sorted in **descending order by GitHub Stars_Count**, featuring real-time stargazers badges:
 
 ### 1. **[Hyperswitch](https://github.com/juspay/hyperswitch)** [![Stars](https://img.shields.io/github/stars/juspay/hyperswitch?style=social&color=white)](https://github.com/juspay/hyperswitch/stargazers)
 * **Description**: Open-source, high-performance payment orchestration platform written in Rust. It serves as the foremost open-source infrastructure layer for routing and unifying BNPL providers alongside credit cards, wallets, and local payment rails across 100+ processors.
