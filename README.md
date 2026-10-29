@@ -32,79 +32,30 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
 
+The global Buy Now, Pay Later (BNPL) sector processes over $560 billion in annual transaction volume (GMV), with specialized software and platform revenues projected to expand from ~$12.8 billion toward $67+ billion by 2026 at an expected 21%–30% CAGR. The industry structure is moderately concentrated and oligopolistic at the top—where the top 5 global players (PayPal, Block/Afterpay, Affirm, Klarna, and Zip) control roughly two-thirds of aggregate volume—yet highly fragmented across long-tail regional verticals, specialized B2B financing, and bank-led embedded finance integrations.
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[Klarna](https://www.klarna.com/)**
-
-  **Global BNPL network** with Pay in 4, Pay in 30 days, and financing options. **Pricing**: Merchant fees per transaction; consumer late fees vary by market. **Free tier**: None for merchants. **Best for**: merchants wanting broad global reach and a mature BNPL brand at checkout.
-
-
-
-- **[Afterpay](https://www.afterpay.com/)** (Block)
-
-  **BNPL platform** with Pay in 4 installments, popular in retail and fashion. **Pricing**: Merchant fees per transaction. **Free tier**: None. **Best for**: retailers targeting younger demographics with a well-recognized installment brand.
-
-
-
-- **[Affirm](https://www.affirm.com/)**
-
-  **BNPL and installment lending** platform with longer-term financing options and transparent terms. **Pricing**: Merchant fees; consumer interest on longer plans varies. **Free tier**: None. **Best for**: merchants wanting flexible financing options beyond short-term splits.
-
-
-
-- **[Zip (Quadpay)](https://zip.co/)**
-
-  **BNPL platform** with Pay in 4 and installment options across multiple markets. **Pricing**: Merchant fees. **Free tier**: None. **Best for**: merchants wanting a widely recognized BNPL option with global coverage.
-
-
-
-- **[Sezzle](https://sezzle.com/)**
-
-  **BNPL platform** focused on Pay in 4 with a consumer app and merchant network. **Pricing**: Merchant fees. **Free tier**: None. **Best for**: merchants wanting a BNPL option with strong consumer engagement features.
-
-
-
-- **[PayPal Pay in 4](https://www.paypal.com/)**
-
-  **PayPal's BNPL offering** allowing eligible customers to split purchases into four payments. **Pricing**: Merchant fees; eligibility determined by PayPal. **Free tier**: None for merchants. **Best for**: merchants already on PayPal wanting a native BNPL option without additional integration.
-
-
-
-- **[Shop Pay Installments](https://shop.app/)**
-
-  **Shopify's BNPL** powered by Affirm, available to eligible Shopify merchants. **Pricing**: Merchant fees; eligibility requirements apply. **Free tier**: None. **Best for**: Shopify merchants wanting an integrated installment option without a separate BNPL integration.
-
-
-
-- **[Splitit](https://www.splitit.com/)**
-
-  **Installment payment platform** using existing consumer credit cards, without new credit applications. **Pricing**: Merchant fees. **Free tier**: None. **Best for**: merchants wanting installment options without consumer credit checks or new accounts.
-
-
-
-- **[Sunbit](https://sunbit.com/)**
-
-  **BNPL platform** focused on in-person and point-of-sale financing for services and retail. **Pricing**: Merchant fees. **Free tier**: None. **Best for**: service providers and retailers wanting in-person installment financing.
-
-
-
-- **[Zilch](https://www.zilch.com/)**
-
-  **BNPL and rewards platform** with a focus on responsible lending and consumer rewards. **Pricing**: Merchant fees. **Free tier**: None. **Best for**: merchants in the UK and Europe wanting a BNPL option with consumer rewards integration.
-
-
+| Platform | Market Size / Valuation | Starting Pricing (Merchant Discount Rate) | Free Tier / Trial Limits | Description & Key Strengths |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Shop Pay Installments](https://shop.app/)** (Shopify) | ~$215B Market Cap ($11.6B+ FY revenue) | 5.0% + $0.30 per transaction (standard tier: 5.0%–5.9% + $0.30) | 3-day free trial on Shopify (store admin and config; storefront checkout locked until live plan activated), followed by $1/mo for 3 months | Shopify's native BNPL experience powered by Affirm. Offers zero-friction checkout for eligible Shopify merchants without requiring third-party provider accounts. |
+| **[PayPal Pay in 4](https://www.paypal.com/)** | ~$48B Market Cap ($33.2B FY revenue) | 4.99% + $0.49 per transaction (standard US Pay Later commercial rate) | Free developer sandbox account (supports simulated Pay Later flows, mock customer balances, with full API testing limits) | PayPal's native installment split offering. Seamlessly integrates into standard PayPal checkout buttons for established merchants without additional underwriting setup. |
+| **[Afterpay](https://www.afterpay.com/)** (Block) | ~$45B Market Cap ($24.2B FY revenue) | 4.0% + $0.30 per transaction (standard tier: 4.0%–6.0% + $0.30) | Free developer sandbox account (requires account manager invitation/approval; test portal with mock card simulation rules) | Top-tier installment platform specializing in Pay in 4 plans; ideal for lifestyle, apparel, and fashion retailers targeting younger consumer demographics. |
+| **[Affirm](https://www.affirm.com/)** | ~$24B Market Cap ($2.2B–$3.9B revenue) | 3.0% + $0.30 per transaction (standard tier: 3.0%–6.0% depending on terms) | Free developer sandbox environment (unlimited testing, $35 min cart / $30k max mock cap, 10-minute auth token auto-expiration) | Consumer installment lending engine offering flexible terms from Pay in 4 up to 36-month financing with transparent fixed terms for high-AOV retail. |
+| **[Klarna](https://www.klarna.com/)** | ~$10B–$15B Market Valuation ($3.5B+ revenue) | 3.29% + $0.30 per transaction (standard tier: 3.29%–5.99% + $0.30) | Free Playground sandbox tier (instant self-serve test MID generation; rate limited to 5 req/sec for session creation, 50 req/sec general) | Global BNPL and shopping network featuring Pay in 4, Pay in 30 days, and extended financing with deep omnichannel reach across North America and Europe. |
+| **[Sezzle](https://sezzle.com/)** | ~$4.4B Market Cap (~$550M+ revenue) | 6.0% + $0.30 per transaction (standard tier; optional $15/mo inactivity fee if volume < $300/mo) | Free self-service developer sandbox (unlimited mock payments via fixed OTP `123123`; formal merchant review required for production keys) | B Corp-certified installment financing focused on consumer engagement and ethical credit splitting for SMBs and direct-to-consumer e-commerce brands. |
+| **[Zilch](https://www.zilch.com/)** | ~$2.0B Private Valuation (£110M+ ARR) | 0% merchant integration fee (monetized via standard Visa interchange: ~1.5%–2.5% + affiliate ad revenue; consumer tiers up to £4.99/mo) | Free forever consumer plan (Zilch Standard: up to 5% cashback rewards on Pay Now, 6-week split terms; no merchant software fee) | Virtual Mastercard-based BNPL model operating directly on open card rails, bypassing direct merchant software integrations through affiliate commissions and interchange. |
+| **[Zip (Quadpay)](https://zip.co/)** | ~$1.8B USD Market Cap (A$2.17B cap, A$4.0B+ GMV) | 4.0% + $0.30 per transaction (standard tier: 4.0%–6.0% negotiated by volume) | Free developer sandbox access (self-serve/direct request; test credentials with standard 429 rate limit throttling and simulated barcodes) | International multi-tier installment lender operating across the US, Australia, and New Zealand, providing rapid merchant payouts and flexible split payments. |
+| **[Sunbit](https://sunbit.com/)** | ~$1.1B Private Valuation (~$343M revenue) | 5.0% flat fee per transaction (standard tier: 5.0%–5.5% flat processing) | Free interactive live demo upon request (no self-service sandbox; personalized 1-on-1 guided trial session with sales engineering) | Specialized point-of-sale BNPL and installment provider customized for service-heavy in-person industries, including auto repair, dental, and optical practices. |
+| **[Splitit](https://www.splitit.com/)** | ~$30M Valuation (~$10M–$13M revenue) | 1.5% + $0.30 per transaction (standard tier: 1.5%–3.0% based on settlement plan) | Free developer sandbox account (full API and plugin mock environment with test credit card suite and decline simulation) | Installment infrastructure leveraging consumer credit cards' existing pre-authorized limits without requiring credit checks, new loans, or balance transfers. |
 
 ## Open-Source GitHub Projects
 
